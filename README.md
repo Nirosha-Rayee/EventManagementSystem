@@ -1,3 +1,6 @@
+ **EVENT MANAGEMENT SYSTEM**
+
+
 **1.0	INTRODUCTION:**
 
 •	I have developed a Backend system for an Event Management System using Microservices based architecture, where we can save all events and track all upcoming events.
@@ -68,9 +71,9 @@ Spring Data JPA simplifies and accelerates the development of data access layer 
 
 **4.0  External APIs:**
 
-To get the Weather data, I have created Weather Application Microservice.  And the flow chat will be like this as below diagram
+To get the Weather data, **I have created Weather Application Microservice**.  And the flow chat will be like this as below diagram
  
-**End Points to get Weather Data:**   (By using Request parameter as City Name)  GET/ localhost:9000/api/weather/Hartville
+**End Points to get Weather Data:**      GET/ localhost:9000/api/weather/Hartville     (By using Request parameter as City Name)  
 
 **Spring Eureka:**  http://localhost:8761 (for more instances creation)
 
