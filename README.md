@@ -6,7 +6,7 @@
 
 •	Created Microservices are event management system, weather application, Event service discovery, Event API gateway + Load Balancer.
 
-•	**Tech Stack Used:** Java, Spring Boot, MySQL, SpringDataJPA, Spring cloud (Netflix – Eureka server) for service Discovery, API G/W, LB, Postman as a Rest client.
+•	**Tech Stack Used:** Java, Spring Boot, MySQL, SpringDataJPA, Spring cloud (Netflix – Eureka server) for service Discovery, API G/W, LB, Postman as a Rest client, IntelliJ.
 
 •	Used MVC pattern for Spring Boot applications as followed like below diagram 
 
