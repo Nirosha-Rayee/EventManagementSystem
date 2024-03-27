@@ -1,6 +1,5 @@
  **EVENT MANAGEMENT SYSTEM**
 
-
 **1.0	INTRODUCTION:**
 
 •	I have developed a Backend system for an Event Management System using Microservices based architecture, where we can save all events and track all upcoming events.
