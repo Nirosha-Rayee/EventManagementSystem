@@ -10,6 +10,11 @@
 
 •	Used MVC pattern for Spring Boot applications as followed like below diagram 
 
+![image](https://github.com/Nirosha-Rayee/EventManagementSystem/assets/135204611/1bef4f44-0f15-42d1-915b-8da1460066cb)
+
+
+
+
 **2.0	BRIEF ABOUT TECH STACK:**
 
 **Java:**
@@ -67,6 +72,11 @@ Spring Data JPA simplifies and accelerates the development of data access layer 
 •	Here, this will return events occurring within the next 14 days from the specified date. 
 
 •	And sorted by the earliest event after the specified date, with a page size of 10.
+
+
+![image](https://github.com/Nirosha-Rayee/EventManagementSystem/assets/135204611/6a26dcce-b26b-4257-85f9-7134ba4ecefd)
+
+
 
 **4.0  External APIs:**
 
