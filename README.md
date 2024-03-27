@@ -125,7 +125,7 @@ https://github.com/Nirosha-Rayee/EventServiceDiscovery.git
 
 •	Run all the Microservices one by one and hit the Endpoints in Postman.
 
-Please refer this video if you want, https://www.youtube.com/watch?v=ZqxVJ9gEKo0
+
 
 **Thank you for providing this opportunity.**
 
