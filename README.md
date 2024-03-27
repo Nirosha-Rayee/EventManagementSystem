@@ -40,27 +40,27 @@ Spring Data JPA simplifies and accelerates the development of data access layer 
 
 ****Spring Cloud:**
 
-•	Service Discovery: whenever a new server of any service comes up, it will first register itself with the service discovery. 
+•	**Service Discovery:** whenever a new server of any service comes up, it will first register itself with the service discovery. 
 
 •	Whenever 1 Microservice needs to call another Microservice, it gets the I/P Addresses of that service from the service discovery.
 
-•	API G/W: It takes the request & Routes the request to the correct microservice.
+•	****API G/W :** It takes the request & Routes the request to the correct microservice.
 
-•	LB: Balance the load between servers.
+•	**LB**: Balance the load between servers.
 
 **3.0	API ENDPOINTS FOR EVENT MANAGEMENT MICROSERVICE:**
 
 **Data creation API:**
 
-Create a Single Event: POST / localhost:3002/events/create 
+**Create a Single Event:**  POST / localhost:3002/events/create 
 
-Create a List of Events: POST/ localhost:3002/events/createAll
+**Create a List of Events:**  POST/ localhost:3002/events/createAll
 
 **Event Finder API:**
 
-Get all events: GET / localhost:3002/events/all
+**Get all events:**  GET / localhost:3002/events/all
 
-Get list of all events based on the user's Request Params latitude, longitude, and a specified date:  GET / localhost:3002/events/find?latitude=40.7128&longitude=-74.0060&date=2024-03-15
+**Get list of all events based on the user's Request Params latitude, longitude, and a specified date:**  GET / localhost:3002/events/find?latitude=40.7128&longitude=-74.0060&date=2024-03-15
 
 •	Here, this will return events occurring within the next 14 days from the specified date. 
 
@@ -70,16 +70,14 @@ Get list of all events based on the user's Request Params latitude, longitude, a
 
 To get the Weather data, I have created Weather Application Microservice.  And the flow chat will be like this as below diagram
  
-End Points to get Weather Data:   By using Request parameter as City Name.
+**End Points to get Weather Data:**   (By using Request parameter as City Name)  GET/ localhost:9000/api/weather/Hartville
 
-GET/ localhost:9000/api/weather/Hartville
-
-Spring Eureka:  http://localhost:8761 (for more instances creation)
+**Spring Eureka:**  http://localhost:8761 (for more instances creation)
 
  
 •	Here, I have written few Unit Test cases in Weather Application to handle errors.
 
-•	Created Service Discovery and API G/W for to make parallel calls to the external Weather API to minimize response time.
+•	Created Service Discovery  for to make parallel calls to the external Weather API to minimize response time.
 
 **5.0	SUGGESTIONS FOR OPTIMIZING API USAGE:**
 
@@ -127,7 +125,7 @@ https://github.com/Nirosha-Rayee/EventServiceDiscovery.git
 
 Please refer this video if you want, https://www.youtube.com/watch?v=ZqxVJ9gEKo0
 
-Thank you for providing this opportunity.
+**Thank you for providing this opportunity.**
 
 
 
